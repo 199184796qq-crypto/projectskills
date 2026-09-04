@@ -78,3 +78,8 @@ Read `references/ref-en.txt` for label rules, retention analysis, and complete e
 - Describe each shot by composition, subjects, environment, actions, camera, sound, and the exact point where referenced content appears.
 - Avoid plot summaries, unresolved reference labels, and timing that does not match the requested duration.
 - Before delivery, verify that the two language-matched standalone rules directly follow the final `[Shot N]` in the applicable shot-description field, in this order: the complete no-readable-text constraint, then `全片不准出现字幕。` for Chinese prompts or `No subtitles are allowed throughout the video.` for English prompts.
+
+## 中文名称与说明
+
+- 中文名称：H3 提示词编写器
+- 用途说明：编写 MiniMax H3 多模式视频生成提示词。
