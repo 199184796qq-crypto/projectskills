@@ -174,3 +174,8 @@ description: Analyze one or more character reference images and output copy-read
 - 资产组各条提示词没有改变人物年龄、脸型、体型和服装。
 - 负面提示词针对当前人物，而不是通用模板。
 - 输出可直接复制，不要求用户自行拼接关键模块。
+
+## 中文名称与说明
+
+- 中文名称：人物资产提示词
+- 用途说明：分析角色参考图并生成角色资产提示词。
