@@ -133,3 +133,8 @@ arkcli profile use <name>                                    # 切换默认 prof
 - [references/profile-defaults.md](references/profile-defaults.md) — profile 默认资源、漂移检测、跨模态
 - [references/global-flags.md](references/global-flags.md) — 常用全局 flags 速查
 - [references/troubleshooting.md](references/troubleshooting.md) — 故障分流与能力边界
+
+## 中文名称与说明
+
+- 中文名称：arkcli 共享规则
+- 用途说明：提供 ARK 共享执行协议、认证闸门和命令路由。
