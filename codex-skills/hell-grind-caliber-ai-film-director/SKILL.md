@@ -402,3 +402,8 @@ Quality Suffix:
 ```
 
 详细模板见 `references/ai-feature-film-framework.md`。
+
+## 中文名称与说明
+
+- 中文名称：AI 电影导演
+- 用途说明：为 AI 长片、动态漫和短剧提供电影级创作与导演流程。
