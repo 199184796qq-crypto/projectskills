@@ -81,3 +81,8 @@ metadata:
 - [arkcli-models](../arkcli-models/SKILL.md) -- 部署前确认模型 ID
 - [arkcli-code-example](../arkcli-code-example/SKILL.md) -- 已有 endpoint 时生成调用代码
 - [arkcli-shared](../arkcli-shared/SKILL.md) -- 认证与全局参数
+
+## 中文名称与说明
+
+- 中文名称：ARK 推理部署
+- 用途说明：创建与管理 ARK 模型推理接入点。
