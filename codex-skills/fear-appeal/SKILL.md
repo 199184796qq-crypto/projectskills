@@ -132,3 +132,8 @@ related_skills: [copywriting-four-step-system, cognitive-contrast, usage-scenari
 - **验证通过**: V1 (跨域验证) / V2 (预测力) / V3 (独特性) 均通过
 - **测试通过率**: 待测
 - **蒸馏时间**: 2026-05-02
+
+## 中文名称与说明
+
+- 中文名称：恐惧诉求写作法
+- 用途说明：通过痛点与风险唤起，推动读者采取行动。
