@@ -154,3 +154,8 @@ arkcli +gen --model "$MODEL" --input @ref.jpg "<prompt>"
 - [arkcli-shared](../arkcli-shared/SKILL.md) — 认证和全局参数（必读）
 - [arkcli-models](../arkcli-models/SKILL.md) — Step 2 模型查询/`supported_params` 详解
 - [references/arkcli-gen.md](references/arkcli-gen.md) — `+gen` 全参数 + 多模态 + 异步语义
+
+## 中文名称与说明
+
+- 中文名称：arkcli 生成工作流（+gen）
+- 用途说明：火山方舟 Ark 图片/视频生成入口：用户要生图、画图、生成图片/视频、图生图、图生视频、参考图/视频/音频生成，或明确使用 seedream/seedance 创作新内容时使用 arkcli +gen。+gen 按当前 profile 的可用资源与模型 supported_params 生成；图片同步返回，视频提交后返回 task_id/status，需用 --wait 或 arkcli gen get/list 轮询并下载结果。反触发：用户问失败原因、失败率、模型健康、持续慢/超时/限流、配额是否够、内容审核/敏感内容/PolicyViolation 拦截怎么解决时，走 arkcli-doctor 的 doctor model 或 doctor error，不走本 skill。单条视频 queued/还在跑通常是异步任务未完成，仍用 gen get/list 查结果；跨任务统计性失败或持续异常才转 doctor。
