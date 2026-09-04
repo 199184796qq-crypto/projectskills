@@ -632,3 +632,7 @@ HARD CUT
 
 最终输出必须是一段可以直接复制进 AI 视频模型的提示词。
 
+## 中文名称与说明
+
+- 中文名称：资产驱动式电影感AI视频提示词自动推导 Skill
+- 用途说明：资产驱动式电影感AI视频提示词自动推导。Use when the user provides a simple video scene idea or short action description and wants a complete AI video prompt based on available or inferred character, scene, prop, monster, color, style, first-frame, or end-frame assets. Triggers include 资产驱动, 电影感AI视频提示词, 自动推导提示词, 一句话画面生成视频提示词, 多镜头视频提示词, 根据资产写视频提示词, and requests needing asset consistency, camera movement, action beats, sound design, model constraints, or automatic 15-second segment splitting.
