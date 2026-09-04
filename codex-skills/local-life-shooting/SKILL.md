@@ -38,3 +38,8 @@ Return:
 - Make every narration line react to a visible action, expression, object, or prior line.
 - Use one recurring phrase at most; repeat it only when it advances the joke or payoff.
 - Avoid inventing customer reviews, discounts, sales results, or business claims.
+
+## 中文名称与说明
+
+- 中文名称：本地生活短视频创作
+- 用途说明：策划并编写本地生活类短视频。
