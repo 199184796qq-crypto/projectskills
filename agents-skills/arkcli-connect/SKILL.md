@@ -53,3 +53,8 @@ metadata:
 - `npm install` arkcli 时 postinstall **会自动跑 `+connect`**：在能打开 `/dev/tty` 的交互式终端上直接把内嵌 skills 装到检测到的所有 agent，无需用户确认；CI / 非交互终端 / 拿不到 `/dev/tty` 一律静默跳过；想完全静音可设 `ARKCLI_SKIP_POSTINSTALL=1`
 
 详细行为、错误码、输出示例见 [`references/arkcli-connect.md`](references/arkcli-connect.md)。
+
+## 中文名称与说明
+
+- 中文名称：ARK 技能连接器
+- 用途说明：将 ARK 内置 skills 连接到智能体工作流。
