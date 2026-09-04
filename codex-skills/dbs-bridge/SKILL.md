@@ -131,3 +131,8 @@ skills/dbs-bridge/scripts/bridge-skill.sh unlink <skill-name-or-path>
 - 目标位置如果存在，必须是软链才允许更新；
 - 不能删除源目录；
 - 不能把 `skills/dbs-bridge` 自身复制到两端，只能软链。
+
+## 中文名称与说明
+
+- 中文名称：dbs-bridge：双端 skill 桥接
+- 用途说明：把 skill 或 skill 集合桥接到智能体工作流。
