@@ -101,3 +101,8 @@ metadata:
 - 全部 flag、`@file`/audio 上传机制、返回值扁平 schema、错误码、raw API 兜底、与 `+chat` 的关系 → [`references/arkcli-understand.md`](references/arkcli-understand.md)
 - 12 个 sub-skill 的逐条用途、**期望输出形态**、示例命令 → [`references/sub-skills.md`](references/sub-skills.md)
 - 最小评估/回归用例 → [`references/evals.md`](references/evals.md)
+
+## 中文名称与说明
+
+- 中文名称：ARK 多模态理解
+- 用途说明：执行有明确产出形态的多模态理解任务。
