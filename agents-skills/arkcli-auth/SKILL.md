@@ -110,3 +110,8 @@ metadata:
 - [`references/arkcli-auth-login.md`](references/arkcli-auth-login.md)
 - [`references/arkcli-auth-status.md`](references/arkcli-auth-status.md)
 - [`references/arkcli-auth-whoami.md`](references/arkcli-auth-whoami.md)
+
+## 中文名称与说明
+
+- 中文名称：ARK 认证管理
+- 用途说明：管理 ARK 交互式登录、SSO 认证、状态查看与退出。
