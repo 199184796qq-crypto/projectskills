@@ -100,3 +100,8 @@ arkcli api model.list_foundation_models --params '{"PageSize":10,"PageNumber":1}
 - [`references/arkcli-api.md`](references/arkcli-api.md) -- api explorer 的命令语义、参数与排错
 - [`references/evals.md`](references/evals.md) -- 最小评估用例（唤起/反唤起/排错）
 - [`../../docs/developer-guide.md`](../../docs/developer-guide.md) -- 开发者指南（API Explorer 适用场景与开发流程）
+
+## 中文名称与说明
+
+- 中文名称：ARK 原始 API 探索器
+- 用途说明：调用已注册的 ARK 原始 Action，补足常规命令无法覆盖的能力。
