@@ -63,3 +63,8 @@ arkcli +code-example --model doubao-seedream-5-0 --version 260128 --lang python 
 
 - [references/arkcli-code-example.md](references/arkcli-code-example.md) — 完整命令手册
 - [arkcli-models](../arkcli-models/SKILL.md) / [arkcli-deploy](../arkcli-deploy/SKILL.md) / [arkcli-infer-endpoint](../arkcli-infer-endpoint/SKILL.md) / [arkcli-shared](../arkcli-shared/SKILL.md)
+
+## 中文名称与说明
+
+- 中文名称：ARK 调用示例生成器
+- 用途说明：为指定 ARK 基础模型生成多语言调用示例。
