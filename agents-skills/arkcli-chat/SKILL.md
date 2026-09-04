@@ -96,3 +96,8 @@ metadata:
 - `+chat` 的 `--caching / --cache-prefix / --thinking / --expire-at` 用法、回显字段与 autotest 对应见 [`references/caching-thinking.md`](references/caching-thinking.md)。
 - `+chat` 的 `--text-format / --text-schema / --text-schema-name / --text-strict` 用法见 [`references/text-format.md`](references/text-format.md)。
 - `+chat` 的 `--stream --include-events` NDJSON 流式事件输出见 [`references/stream-events.md`](references/stream-events.md)。
+
+## 中文名称与说明
+
+- 中文名称：ARK 多模态对话
+- 用途说明：通过 ARK Responses API 进行文本和多模态对话。
