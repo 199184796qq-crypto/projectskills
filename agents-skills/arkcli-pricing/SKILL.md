@@ -119,3 +119,8 @@ metadata:
 - [arkcli-usage](../arkcli-usage/SKILL.md) — 实际 token / 请求消耗(含历史范围)
 - [arkcli-deploy](../arkcli-deploy/SKILL.md) — 创建 Endpoint(部署前自动检测开通)
 - [arkcli-shared](../arkcli-shared/SKILL.md) — 认证和全局参数
+
+## 中文名称与说明
+
+- 中文名称：ARK 模型定价查询
+- 用途说明：查询火山引擎 ARK 基础模型结算单价（含当前账号折扣）以及 AgentPlan / CodingPlan 套餐订阅价格。Price 字段就是后端按账号合同 / 活动 / 套餐折后的最终单价，OriginalPrice 是公示原价。当用户问模型多少钱、定价、单价、价格、Agent Plan 多少钱、Coding Plan 多少钱、套餐价格、折扣价、按 token 收费、不同模态价格对比、模型免费额度时使用。反触发：TTS/ASR/语音模型费用不支持查询，不要用 Audio pricing，只能转 models search 说明广场发现边界。
