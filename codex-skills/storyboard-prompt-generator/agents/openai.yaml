@@ -1,0 +1,4 @@
+interface:
+  display_name: "故事板提示词"
+  short_description: "根据人物身份板和剧情生成6到8格手绘线稿AI视频故事板提示词。"
+  default_prompt: "根据人物身份板和剧情，生成一张手绘线稿风格AI视频故事板提示词。"

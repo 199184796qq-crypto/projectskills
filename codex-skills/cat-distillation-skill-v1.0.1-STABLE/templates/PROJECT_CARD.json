@@ -1,0 +1,19 @@
+{
+  "project_name": "",
+  "subject_label": "",
+  "purpose": [],
+  "allowed_materials": [],
+  "forbidden_uses": [],
+  "target_outputs": [
+    "novel",
+    "screenplay",
+    "article",
+    "marketing",
+    "collaboration"
+  ],
+  "authorization_note": "",
+  "created_at": "",
+  "skill_version": "1.0.1",
+  "delivery_level": "practical-strong",
+  "quality_target": 8
+}

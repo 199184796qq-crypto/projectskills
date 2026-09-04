@@ -1,0 +1,4 @@
+interface:
+  display_name: "武器打斗提示词生成器"
+  short_description: "识别人物武器，联网研究招式与运镜并生成连贯打斗提示词"
+  default_prompt: "使用 $generate-fight-prompts 分析我上传的人物图和场景图，研究适配武器的招式与运镜，并生成可用于视频模型的打斗提示词。"

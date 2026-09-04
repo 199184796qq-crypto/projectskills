@@ -1,0 +1,4 @@
+interface:
+  display_name: "H3 长剧本转Context提示词"
+  short_description: "将长剧本转为连续的 MiniMax H3 Context 提示词。"
+  default_prompt: "Use $h3context-script-to-video to turn this script into H3-ready segmented prompts."

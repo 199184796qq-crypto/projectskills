@@ -1,0 +1,4 @@
+interface:
+  display_name: "角色四视图"
+  short_description: "生成专业角色四视图资产提示词与完整定妆参考板设计方案"
+  default_prompt: "使用 $character-four-view，根据我的角色参考图生成四视图提示词。"

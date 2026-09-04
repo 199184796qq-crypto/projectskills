@@ -1,0 +1,102 @@
+{
+  "id": "case-001",
+  "title": "案例标题",
+  "status": "success",
+  "coordinates": {
+    "domain": "writing",
+    "job": "screenplay",
+    "format": "script",
+    "audience": "general",
+    "length": 800,
+    "tone": [
+      "restrained"
+    ],
+    "constraints": []
+  },
+  "case_map": {
+    "starting_state": "起始状态",
+    "ending_state": "结束状态",
+    "path": [
+      "opening",
+      "development",
+      "change",
+      "payoff"
+    ],
+    "must_keep": [
+      "局部结构关系"
+    ],
+    "replaceable": [
+      "题材、人物、事实和全部具体表达"
+    ],
+    "avoid": [
+      "复制原句"
+    ]
+  },
+  "slices": {
+    "structure": {
+      "phase_slots": [
+        "opening",
+        "development",
+        "change",
+        "payoff"
+      ],
+      "paragraph_count": 4,
+      "pace_observation": "待观察",
+      "turn_observation": "待观察"
+    },
+    "voice": {
+      "observable_marks": [],
+      "sentence_band": "mixed",
+      "rhythm_shape": "mixed",
+      "manual_notes": []
+    },
+    "dialogue": {
+      "observable_marks": [],
+      "dialogue_density": "medium",
+      "manual_notes": []
+    },
+    "interaction": {
+      "observable_marks": [],
+      "speaker_count": 2,
+      "manual_notes": []
+    }
+  },
+  "fingerprint": {
+    "sha256": "填入源文件哈希",
+    "char_count": 0,
+    "sentence_count": 0,
+    "paragraph_count": 0,
+    "avg_sentence_chars": 0,
+    "sentence_length_cv": 0,
+    "avg_paragraph_chars": 0,
+    "question_rate": 0,
+    "exclaim_rate": 0,
+    "dash_rate": 0,
+    "ellipsis_rate": 0,
+    "quote_mark_rate": 0,
+    "dialogue_turn_count": 0,
+    "avg_dialogue_turn_chars": 0,
+    "speaker_count": 0,
+    "speaker_alternation": 0,
+    "sentence_band": "unknown",
+    "rhythm_shape": "unknown",
+    "dialogue_density": "unknown"
+  },
+  "evidence": {
+    "why_successful": "用户认可",
+    "proof_type": "user_approved",
+    "score": 8.0,
+    "layer_confidence": {
+      "structure": 0.7,
+      "voice": 0.7,
+      "dialogue": 0.7,
+      "interaction": 0.7
+    }
+  },
+  "source": {
+    "path": "sources/case-001.txt",
+    "authorized": true,
+    "sha256": ""
+  },
+  "limits": []
+}

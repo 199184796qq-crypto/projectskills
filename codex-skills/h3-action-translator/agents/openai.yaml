@@ -1,0 +1,4 @@
+interface:
+  display_name: "H3 Action Translator"
+  short_description: "把动作想法转成 H3 因果分镜与时间轴"
+  default_prompt: "使用 $h3-action-translator，把我的战斗想法拆成逐时间轴动作翻译卡和 H3 提示词。"

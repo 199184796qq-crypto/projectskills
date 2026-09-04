@@ -1,0 +1,4 @@
+interface:
+  display_name: "资产驱动电影感视频提示词"
+  short_description: "把简单画面意图推导成资产一致、电影感强、可直接复制的AI视频提示词。"
+  default_prompt: "使用资产驱动电影感视频提示词，根据我的资产和一句画面描述，生成可直接复制的视频提示词。"

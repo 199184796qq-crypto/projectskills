@@ -1,0 +1,20 @@
+{
+  "source_count": 4,
+  "media_types": {
+    "txt": 4
+  },
+  "directness": {
+    "direct": 4
+  },
+  "unknown_authorization": 0,
+  "pawprint_count": 5,
+  "active_pawprints": 3,
+  "active_jar_counts": {
+    "CRAFT_JAR": 1,
+    "RELATION_JAR": 0,
+    "SENSE_JAR": 1,
+    "TASTE_JAR": 1,
+    "VOICE_JAR": 0
+  },
+  "warnings": []
+}

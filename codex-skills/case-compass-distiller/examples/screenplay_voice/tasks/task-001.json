@@ -1,0 +1,28 @@
+{
+  "id": "task-001",
+  "title": "仓库里的失踪证人",
+  "coordinates": {
+    "domain": "writing",
+    "job": "screenplay",
+    "format": "script",
+    "audience": "general",
+    "length": 180,
+    "tone": [
+      "克制",
+      "悬疑"
+    ],
+    "constraints": [
+      "双人场景",
+      "短对白"
+    ]
+  },
+  "input": "写一个双人悬疑场景：调查员在废弃仓库找到同伴留下的手机，另一人坚持同伴已经叛变。场景末尾手机突然收到一条来自现场的消息。",
+  "must_include": [
+    "手机",
+    "来自现场的消息"
+  ],
+  "must_avoid": [
+    "直接揭晓叛变真相",
+    "长篇解释"
+  ]
+}

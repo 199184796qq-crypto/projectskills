@@ -1,0 +1,33 @@
+{
+  "task_id": "task-001",
+  "mechanical_score_10": 7.4868,
+  "voice_similarity": 0.783,
+  "dialogue_similarity": 0.7172,
+  "structure_similarity": 0.5111,
+  "requirement_proxy": 0.7,
+  "longest_shared_run": 0,
+  "originality_proxy": 1.0,
+  "output_fingerprint": {
+    "sha256": "6fc19c0a5828b61082c4b2772d0fa9a56a343bccc28abf2ecadc96264c2345e9",
+    "char_count": 94,
+    "sentence_count": 8,
+    "paragraph_count": 8,
+    "avg_sentence_chars": 11.75,
+    "sentence_length_cv": 0.2544,
+    "avg_paragraph_chars": 11.75,
+    "question_rate": 1.0638,
+    "exclaim_rate": 0.0,
+    "dash_rate": 0.0,
+    "ellipsis_rate": 0.0,
+    "quote_mark_rate": 0.0,
+    "dialogue_turn_count": 6,
+    "avg_dialogue_turn_chars": 7.3333,
+    "speaker_count": 3,
+    "speaker_alternation": 1.0,
+    "sentence_band": "short",
+    "rhythm_shape": "steady",
+    "dialogue_density": "high"
+  },
+  "verdict": "REVIEW",
+  "warning": "这是机械验收，不替代对剧情逻辑、人物真实性和语义质量的人工/模型复核。"
+}

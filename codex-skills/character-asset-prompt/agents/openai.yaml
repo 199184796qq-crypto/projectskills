@@ -1,0 +1,4 @@
+interface:
+  display_name: "人物资产提示词"
+  short_description: "支持逐步模式与一图快速通道，生成八步人物资产纯文字提示词"
+  default_prompt: "使用 $character-asset-prompt 选择人物资产工作流；选择A后可使用一图快速通道。"

@@ -1,0 +1,12 @@
+{
+  "sources": 4,
+  "pawprints": 5,
+  "active": 3,
+  "jar_counts": {
+    "CRAFT_JAR": 1,
+    "RELATION_JAR": 0,
+    "SENSE_JAR": 1,
+    "TASTE_JAR": 1,
+    "VOICE_JAR": 0
+  }
+}

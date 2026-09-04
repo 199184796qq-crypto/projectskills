@@ -1,0 +1,4 @@
+interface:
+  display_name: "跟拍素材叙事与旁白"
+  short_description: "将真实跟拍素材整理成有主线且可剪辑的中文生活短片脚本"
+  default_prompt: "使用 $third-party-followshot-narration 把这批跟拍素材整理成有主线的短视频旁白脚本。"

@@ -1,0 +1,42 @@
+{
+  "required_slots": [
+    "visible_action",
+    "scene_goal",
+    "blocking",
+    "dialogue_function",
+    "subtext",
+    "audiovisual_release",
+    "cut_point"
+  ],
+  "preferred_tags": [
+    "visual",
+    "action",
+    "blocking",
+    "dialogue",
+    "subtext",
+    "cut"
+  ],
+  "required_jars": [
+    "SENSE_JAR",
+    "TASTE_JAR",
+    "CRAFT_JAR"
+  ],
+  "optional_jars": [
+    "VOICE_JAR"
+  ],
+  "max_voice": 2,
+  "max_pawprints": 7,
+  "build_order": [
+    "先写观众可见动作",
+    "确认场次目标与站位",
+    "用手艺爪印组织潜台词和视听释放",
+    "最后校准台词声音"
+  ],
+  "quality_checks": [
+    "画面可拍",
+    "动作与站位不矛盾",
+    "台词有功能",
+    "潜台词不靠解释",
+    "切点明确"
+  ]
+}

@@ -1,0 +1,3 @@
+interface:
+  display_name: "DouBao 声音生成 Skill"
+  short_description: "将剧本转为可直接用于 DouBao 多人声音演绎的文本"

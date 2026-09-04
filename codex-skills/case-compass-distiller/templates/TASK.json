@@ -1,0 +1,20 @@
+{
+  "id": "task-001",
+  "title": "当前任务",
+  "coordinates": {
+    "domain": "writing",
+    "job": "opening",
+    "format": "short_video",
+    "audience": "general",
+    "length": 120,
+    "tone": [
+      "tense"
+    ],
+    "constraints": [
+      "30_seconds"
+    ]
+  },
+  "input": "在这里写任务素材与要求",
+  "must_include": [],
+  "must_avoid": []
+}

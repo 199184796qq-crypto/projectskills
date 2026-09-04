@@ -1,0 +1,197 @@
+{
+  "task_id": "task-001",
+  "fit": "PARTIAL_FIT",
+  "overall_leaders": [
+    {
+      "id": "case-003",
+      "title": "虚构场景3",
+      "score": 0.7172
+    },
+    {
+      "id": "case-002",
+      "title": "虚构场景2",
+      "score": 0.7099
+    },
+    {
+      "id": "case-001",
+      "title": "虚构场景1",
+      "score": 0.6997
+    }
+  ],
+  "layer_leaders": {
+    "structure": [
+      {
+        "id": "case-003",
+        "title": "虚构场景3",
+        "score": 0.7017,
+        "slice": {
+          "phase_slots": [
+            "opening",
+            "development",
+            "change",
+            "payoff"
+          ],
+          "paragraph_count": 4,
+          "pace_observation": "avg_paragraph_chars=15.75",
+          "turn_observation": "后半段出现一条改变判断的新证据"
+        }
+      },
+      {
+        "id": "case-002",
+        "title": "虚构场景2",
+        "score": 0.6956,
+        "slice": {
+          "phase_slots": [
+            "opening",
+            "development",
+            "change",
+            "payoff"
+          ],
+          "paragraph_count": 5,
+          "pace_observation": "avg_paragraph_chars=13.4",
+          "turn_observation": "后半段出现一条改变判断的新证据"
+        }
+      }
+    ],
+    "voice": [
+      {
+        "id": "case-003",
+        "title": "虚构场景3",
+        "score": 0.6812,
+        "slice": {
+          "observable_marks": [
+            "sentence_band=short",
+            "rhythm=steady",
+            "questions_per_100=0.0",
+            "exclaims_per_100=0.0",
+            "ellipsis_per_100=0.0"
+          ],
+          "sentence_band": "short",
+          "rhythm_shape": "steady",
+          "manual_notes": [
+            "短句为主",
+            "解释少于反应",
+            "关键句单独成轮"
+          ]
+        }
+      },
+      {
+        "id": "case-002",
+        "title": "虚构场景2",
+        "score": 0.6757,
+        "slice": {
+          "observable_marks": [
+            "sentence_band=short",
+            "rhythm=mixed",
+            "questions_per_100=1.4925",
+            "exclaims_per_100=0.0",
+            "ellipsis_per_100=0.0"
+          ],
+          "sentence_band": "short",
+          "rhythm_shape": "mixed",
+          "manual_notes": [
+            "短句为主",
+            "解释少于反应",
+            "关键句单独成轮"
+          ]
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "id": "case-003",
+        "title": "虚构场景3",
+        "score": 0.7489,
+        "slice": {
+          "observable_marks": [
+            "density=medium",
+            "turns=2",
+            "avg_turn_chars=6.0"
+          ],
+          "dialogue_density": "medium",
+          "manual_notes": [
+            "问句推动信息",
+            "回答经常只给半步",
+            "动作承担未说出口的信息"
+          ]
+        }
+      },
+      {
+        "id": "case-002",
+        "title": "虚构场景2",
+        "score": 0.74,
+        "slice": {
+          "observable_marks": [
+            "density=high",
+            "turns=4",
+            "avg_turn_chars=9.75"
+          ],
+          "dialogue_density": "high",
+          "manual_notes": [
+            "问句推动信息",
+            "回答经常只给半步",
+            "动作承担未说出口的信息"
+          ]
+        }
+      }
+    ],
+    "interaction": [
+      {
+        "id": "case-003",
+        "title": "虚构场景3",
+        "score": 0.7369,
+        "slice": {
+          "observable_marks": [
+            "speakers=2",
+            "alternation=1.0",
+            "reaction_order=source_observation_required"
+          ],
+          "speaker_count": 2,
+          "manual_notes": [
+            "一人试探，一人收紧信息",
+            "新证据出现后权力位置变化"
+          ]
+        }
+      },
+      {
+        "id": "case-002",
+        "title": "虚构场景2",
+        "score": 0.7283,
+        "slice": {
+          "observable_marks": [
+            "speakers=2",
+            "alternation=1.0",
+            "reaction_order=source_observation_required"
+          ],
+          "speaker_count": 2,
+          "manual_notes": [
+            "一人试探，一人收紧信息",
+            "新证据出现后权力位置变化"
+          ]
+        }
+      }
+    ]
+  },
+  "difference_sheet": {
+    "KEEP": [
+      "保留本案例已观察到的结构关系，不复制具体措辞"
+    ],
+    "REPLACE": [
+      "题材、人物、事实、数据和全部具体表达"
+    ],
+    "ADD": [],
+    "REMOVE": [],
+    "WATCH": [
+      "长句复刻",
+      "把单个案例当作普遍结论",
+      "只迁移观察到的关系，不携带领航案例的题材和原句"
+    ],
+    "coordinate_changes": {
+      "length": {
+        "from": 63,
+        "to": 180
+      }
+    }
+  },
+  "note": "四层领航可以来自不同案例；不把局部观察升级为全局结论。"
+}

@@ -1,0 +1,11 @@
+{
+  "project_id": "my-case-map",
+  "name": "我的案例地图",
+  "ability_goal": "用一句话描述要学会的能力",
+  "success_definition": [
+    "任务完成",
+    "可以直接使用"
+  ],
+  "created_at": "YYYY-MM-DD",
+  "version": 1
+}

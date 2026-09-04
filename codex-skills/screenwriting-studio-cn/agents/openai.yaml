@@ -1,0 +1,4 @@
+interface:
+  display_name: "样品视频分析"
+  short_description: "拆解用户提供的样品视频，提炼结构、镜头、节奏和可复用公式"
+  default_prompt: "使用 $screenwriting-studio-cn 分析我提供的样品视频，拆解它的结构、镜头和节奏。"

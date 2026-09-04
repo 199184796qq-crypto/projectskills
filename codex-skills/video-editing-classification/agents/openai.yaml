@@ -1,0 +1,4 @@
+interface:
+  display_name: "视频剪辑归类"
+  short_description: "从原素材提取高光片段并按目标分类安全命名后保存到文件夹中"
+  default_prompt: "使用 $video-editing-classification，从我的素材库中剪辑高光片段并按目标分类保存。"

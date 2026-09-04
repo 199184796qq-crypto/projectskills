@@ -1,0 +1,7 @@
+interface:
+  display_name: "MiniMax H3 视频专家"
+  short_description: "H3多模态生视频、提示词编写与分镜专家"
+  brand_color: "#F97316"
+  default_prompt: "使用 $minimax-h3-video-expert 生成或排查一个 MiniMax H3 视频工作流。"
+policy:
+  allow_implicit_invocation: true

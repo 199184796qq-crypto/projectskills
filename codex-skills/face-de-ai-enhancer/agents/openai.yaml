@@ -1,0 +1,4 @@
+interface:
+  display_name: "面部去AI感"
+  short_description: "把AI视频人物面部从塑料感、磨皮感、僵硬感调整为更自然的真人质感。"
+  default_prompt: "帮我把这段短视频提示词做面部去AI感处理。"

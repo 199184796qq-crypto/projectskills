@@ -1,0 +1,7 @@
+interface:
+  display_name: "微短剧编剧大师"
+  short_description: "完成中文微短剧立项、人物设计、分集创作、审查与导出"
+  default_prompt: "使用 $short-drama 帮我将这个故事构思成一部中文微短剧。"
+
+policy:
+  allow_implicit_invocation: true

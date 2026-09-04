@@ -1,0 +1,134 @@
+{
+  "id": "case-001",
+  "title": "虚构场景1",
+  "status": "success",
+  "coordinates": {
+    "domain": "writing",
+    "job": "screenplay",
+    "format": "script",
+    "audience": "general",
+    "length": 61,
+    "tone": [
+      "克制",
+      "悬疑"
+    ],
+    "constraints": [
+      "双人场景",
+      "短对白"
+    ]
+  },
+  "case_map": {
+    "starting_state": "信息不完整",
+    "ending_state": "关系或判断发生变化",
+    "path": [
+      "opening",
+      "development",
+      "change",
+      "payoff"
+    ],
+    "must_keep": [
+      "保留本案例已观察到的结构关系，不复制具体措辞"
+    ],
+    "replaceable": [
+      "题材、人物、事实、数据和全部具体表达"
+    ],
+    "avoid": [
+      "长句复刻",
+      "把单个案例当作普遍结论"
+    ]
+  },
+  "slices": {
+    "structure": {
+      "phase_slots": [
+        "opening",
+        "development",
+        "change",
+        "payoff"
+      ],
+      "paragraph_count": 5,
+      "pace_observation": "avg_paragraph_chars=12.2",
+      "turn_observation": "后半段出现一条改变判断的新证据"
+    },
+    "voice": {
+      "observable_marks": [
+        "sentence_band=short",
+        "rhythm=mixed",
+        "questions_per_100=1.6393",
+        "exclaims_per_100=0.0",
+        "ellipsis_per_100=0.0"
+      ],
+      "sentence_band": "short",
+      "rhythm_shape": "mixed",
+      "manual_notes": [
+        "短句为主",
+        "解释少于反应",
+        "关键句单独成轮"
+      ]
+    },
+    "dialogue": {
+      "observable_marks": [
+        "density=high",
+        "turns=3",
+        "avg_turn_chars=7.3333"
+      ],
+      "dialogue_density": "high",
+      "manual_notes": [
+        "问句推动信息",
+        "回答经常只给半步",
+        "动作承担未说出口的信息"
+      ]
+    },
+    "interaction": {
+      "observable_marks": [
+        "speakers=2",
+        "alternation=1.0",
+        "reaction_order=source_observation_required"
+      ],
+      "speaker_count": 2,
+      "manual_notes": [
+        "一人试探，一人收紧信息",
+        "新证据出现后权力位置变化"
+      ]
+    }
+  },
+  "fingerprint": {
+    "sha256": "6b1e6d038d7f0b1c16bdc2061bc8d626b7298639c8a889121d5cee3e855f9016",
+    "char_count": 61,
+    "sentence_count": 5,
+    "paragraph_count": 5,
+    "avg_sentence_chars": 12.2,
+    "sentence_length_cv": 0.368,
+    "avg_paragraph_chars": 12.2,
+    "question_rate": 1.6393,
+    "exclaim_rate": 0.0,
+    "dash_rate": 0.0,
+    "ellipsis_rate": 0.0,
+    "quote_mark_rate": 0.0,
+    "dialogue_turn_count": 3,
+    "avg_dialogue_turn_chars": 7.3333,
+    "speaker_count": 2,
+    "speaker_alternation": 1.0,
+    "sentence_band": "short",
+    "rhythm_shape": "mixed",
+    "dialogue_density": "high"
+  },
+  "evidence": {
+    "why_successful": "虚构演示案例",
+    "proof_type": "fictional_demo",
+    "score": 8.299999999999999,
+    "layer_confidence": {
+      "structure": 0.72,
+      "voice": 0.68,
+      "dialogue": 0.66,
+      "interaction": 0.62
+    }
+  },
+  "source": {
+    "path": "/mnt/data/case-compass-distiller-v1.1.0-STABLE-CLEAN/examples/screenplay_voice/sources/a.txt",
+    "authorized": true,
+    "sha256": "6b1e6d038d7f0b1c16bdc2061bc8d626b7298639c8a889121d5cee3e855f9016"
+  },
+  "limits": [
+    "自动建卡只提供可观察特征；语义与剧情功能建议人工复核"
+  ]
+}

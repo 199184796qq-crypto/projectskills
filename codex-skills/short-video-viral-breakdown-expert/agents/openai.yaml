@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频爆款拆解专家"
+  short_description: "拆解参考视频并生成可直接执行的15秒UGC种草故事板"
+  default_prompt: "使用 $short-video-viral-breakdown-expert 分析我的人物、场景、产品、参考视频和逐字稿，并生成15秒UGC带货故事板。"

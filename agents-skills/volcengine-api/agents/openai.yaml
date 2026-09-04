@@ -1,0 +1,7 @@
+interface:
+  display_name: "火山 API"
+  short_description: "火山语音与视频生成接口流程"
+  default_prompt: "Use $volcengine-api to generate voice or Seedance video assets with Volcengine after approval."
+
+policy:
+  allow_implicit_invocation: true

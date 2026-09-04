@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "status",
+    "coordinates",
+    "case_map",
+    "slices",
+    "fingerprint",
+    "evidence",
+    "source"
+  ]
+}

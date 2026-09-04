@@ -1,0 +1,44 @@
+{
+  "required_slots": [
+    "audience",
+    "pain",
+    "promise",
+    "proof",
+    "objection",
+    "action",
+    "commercial_boundary"
+  ],
+  "preferred_tags": [
+    "audience",
+    "pain",
+    "promise",
+    "proof",
+    "objection",
+    "action"
+  ],
+  "required_jars": [
+    "SENSE_JAR",
+    "TASTE_JAR",
+    "CRAFT_JAR"
+  ],
+  "optional_jars": [
+    "VOICE_JAR",
+    "RELATION_JAR"
+  ],
+  "max_voice": 2,
+  "max_pawprints": 7,
+  "build_order": [
+    "确认受众和真实痛点",
+    "先写商业边界",
+    "建立可信证据",
+    "拆除主要阻力",
+    "最后写行动指令和声音"
+  ],
+  "quality_checks": [
+    "受众具体",
+    "承诺可证",
+    "没有越过商业边界",
+    "行动清楚",
+    "没有伪造背书"
+  ]
+}

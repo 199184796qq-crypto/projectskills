@@ -1,0 +1,4 @@
+interface:
+  display_name: "H3 剧情延续提示词"
+  short_description: "根据前段剧情与参考素材生成连续的 H3 视频提示词"
+  default_prompt: "使用 $h3-plot-continuation-prompt，根据上一段剧情、尾帧可见内容和参考素材生成标准中文 H3 连续剧情提示词。"

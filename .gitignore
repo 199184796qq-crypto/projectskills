@@ -1,0 +1,17 @@
+# Credentials and local runtime state must never be versioned.
+.env
+.env.*
+*.local
+*.local.*
+*.token
+*.pem
+*.key
+id_rsa
+id_ed25519
+credentials.json
+
+# Generated cache files.
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

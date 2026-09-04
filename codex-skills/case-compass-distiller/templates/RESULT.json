@@ -1,0 +1,8 @@
+{
+  "task_id": "task-001",
+  "accepted": true,
+  "leader_ids": [
+    "case-001"
+  ],
+  "notes": "用户反馈"
+}

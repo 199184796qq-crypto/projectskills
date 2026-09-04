@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "cases": [
+    {
+      "id": "E01",
+      "name": "simple-action",
+      "must": [
+        "3-4 states",
+        "trigger",
+        "end condition"
+      ]
+    },
+    {
+      "id": "E02",
+      "name": "camera-follow",
+      "must": [
+        "camera relation",
+        "direction continuity"
+      ]
+    },
+    {
+      "id": "E03",
+      "name": "multi-shot-fast-cut",
+      "must": [
+        "next shot start for every shot"
+      ]
+    },
+    {
+      "id": "E04",
+      "name": "prop-state",
+      "must": [
+        "prop continuity"
+      ]
+    },
+    {
+      "id": "E05",
+      "name": "uncertain-camera",
+      "must": [
+        "uncertainty in stability limits"
+      ]
+    },
+    {
+      "id": "E06",
+      "name": "earliest-drift",
+      "must": [
+        "timecode patch"
+      ]
+    },
+    {
+      "id": "E07",
+      "name": "product-demo",
+      "must": [
+        "contact and result"
+      ]
+    },
+    {
+      "id": "E08",
+      "name": "emotion-change",
+      "must": [
+        "transition not jump"
+      ]
+    },
+    {
+      "id": "E09",
+      "name": "environment-response",
+      "must": [
+        "response after trigger"
+      ]
+    },
+    {
+      "id": "E10",
+      "name": "prompt-overload",
+      "must": [
+        "compact output"
+      ]
+    }
+  ]
+}

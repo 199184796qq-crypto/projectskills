@@ -1,0 +1,19 @@
+{
+  "project": "screenplay_voice",
+  "case_count": 3,
+  "success_count": 3,
+  "failure_count": 0,
+  "neighborhoods": {
+    "writing::screenplay::script": [
+      "case-001",
+      "case-002",
+      "case-003"
+    ]
+  },
+  "layer_readiness": {
+    "structure": 3,
+    "voice": 3,
+    "dialogue": 3,
+    "interaction": 3
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "提示词收录"
+  short_description: "整理、分类、去重并沉淀可复用提示词库。"
+  default_prompt: "Use $prompt-collector to 收录这段提示词，并按用途、标签和复用建议整理。"

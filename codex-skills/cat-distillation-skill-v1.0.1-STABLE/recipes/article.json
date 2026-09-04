@@ -1,0 +1,41 @@
+{
+  "required_slots": [
+    "question",
+    "judgment",
+    "evidence",
+    "counterargument",
+    "cognitive_shift",
+    "closure"
+  ],
+  "preferred_tags": [
+    "framing",
+    "evidence",
+    "causality",
+    "counterargument",
+    "closure"
+  ],
+  "required_jars": [
+    "SENSE_JAR",
+    "TASTE_JAR",
+    "CRAFT_JAR"
+  ],
+  "optional_jars": [
+    "VOICE_JAR"
+  ],
+  "max_voice": 2,
+  "max_pawprints": 7,
+  "build_order": [
+    "先定义问题",
+    "确定证据偏好",
+    "建立因果",
+    "处理反对意见",
+    "最后加载声音"
+  ],
+  "quality_checks": [
+    "判断明确",
+    "证据与结论相连",
+    "至少处理一个反对意见",
+    "认知变化可复述",
+    "结尾不空泛"
+  ]
+}

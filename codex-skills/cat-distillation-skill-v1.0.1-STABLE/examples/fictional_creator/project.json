@@ -1,0 +1,26 @@
+{
+  "project_name": "fictional_creator",
+  "subject_label": "林小岚（虚构）",
+  "purpose": [
+    "novel",
+    "screenplay",
+    "article",
+    "collaboration"
+  ],
+  "allowed_materials": [
+    "sample files"
+  ],
+  "forbidden_uses": [
+    "claiming a real identity"
+  ],
+  "target_outputs": [
+    "novel",
+    "screenplay",
+    "article"
+  ],
+  "authorization_note": "all sample materials are fictional",
+  "created_at": "2026-07-13",
+  "skill_version": "1.0.1",
+  "delivery_level": "practical-strong",
+  "quality_target": 8
+}

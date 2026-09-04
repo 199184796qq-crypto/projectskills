@@ -1,0 +1,4 @@
+interface:
+  display_name: "本地生活拍摄"
+  short_description: "为探店、门店与职场日常创作可落地的短视频拍摄脚本。"
+  default_prompt: "Use $local-life-shooting to write a local-life follow-shot video with narration."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "武术动作指导"
+  short_description: "判定打斗性质，设计动作、受力、场地与电影镜头调度"
+  default_prompt: "使用 $action-direction-enhancer 分析这段动作戏的性质、场地与人物，并生成连贯的攻防和镜头方案。"

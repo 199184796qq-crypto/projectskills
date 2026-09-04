@@ -1,0 +1,12 @@
+{
+  "project_id": "screenplay-voice-demo",
+  "name": "虚构编剧案例罗盘",
+  "ability_goal": "迁移场景结构、对白节奏和人物互动",
+  "success_definition": [
+    "场景有推进",
+    "人物声音可区分",
+    "无来源原句拼贴"
+  ],
+  "created_at": "2026-07-18",
+  "version": 2
+}

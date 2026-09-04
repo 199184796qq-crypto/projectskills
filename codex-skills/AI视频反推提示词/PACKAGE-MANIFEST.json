@@ -1,0 +1,117 @@
+{
+  "package": "SceneRelay Reverse",
+  "version": "1.0",
+  "file_count": 22,
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "size": 251,
+      "sha256": "9e58ed9edd35c13e19ec3900e5c88c3c62ecd1ebcb6db4e30582d40d88df0f0f"
+    },
+    {
+      "path": "PACKAGING.md",
+      "size": 556,
+      "sha256": "1d605a35ea8578d263a24c7cdba657af51d2b2a5e5788fd4f697425ef2847d97"
+    },
+    {
+      "path": "QUALITY-CHECKLIST.md",
+      "size": 369,
+      "sha256": "440dff9994042a1f8fb8aabf9b7a100541893402faeab981321f72cf41597e34"
+    },
+    {
+      "path": "QUICKSTART.md",
+      "size": 809,
+      "sha256": "fecc14f91b6c37b3c6ba8681833c8fda624dce85aac030d11f0d4e4ed5ad6a4b"
+    },
+    {
+      "path": "README.md",
+      "size": 766,
+      "sha256": "63ff8f9117f2de0f6e3b0ef298bb1a75a623ade037225bfe0eafa6bed073a67f"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 6675,
+      "sha256": "d1f6e2c8fc4f3066b065942783bc3fea75ad41fc979a80f3fb0e5398d57fdbdf"
+    },
+    {
+      "path": "TEST-REPORT.md",
+      "size": 464,
+      "sha256": "428c02c1b39505a14ad82c036b839e7e4094e429489809c7631abf0b9670d843"
+    },
+    {
+      "path": "VERSION.md",
+      "size": 124,
+      "sha256": "b83d0e02a8f20f819cc38d1a52630c15a7e802f39d2f339a27ac1d1704dc4ede"
+    },
+    {
+      "path": "evals/evals.json",
+      "size": 1300,
+      "sha256": "a68dcc5e66a4e4fa2cbe293171932888899339850d2f0296dc462f19f8ae5274"
+    },
+    {
+      "path": "examples/action-single-shot.md",
+      "size": 813,
+      "sha256": "0867f2a4d07394f18d2207a39ac44fffced9ad3f6a2e91b1dd76bf6f052cacf4"
+    },
+    {
+      "path": "examples/multi-shot-chase.md",
+      "size": 756,
+      "sha256": "acf4befed3a72863ff3de0ce05eeb59c1c42b7a252cca097141ff924f2c746e4"
+    },
+    {
+      "path": "examples/product-demo.md",
+      "size": 442,
+      "sha256": "8e43d25857795650bf3308e19d4f33fbaf2a690adc2ceca6338c0e38ebfc663a"
+    },
+    {
+      "path": "references/continuity-tags.md",
+      "size": 418,
+      "sha256": "c61c12755984f1f6503f772199b36687c947a56e644261fc538d800f39b33759"
+    },
+    {
+      "path": "references/earliest-drift.md",
+      "size": 343,
+      "sha256": "f179cfdcc089bf2df11c72c16fb6007d76f83e7eac16548d7f7c5a84b04fb9fe"
+    },
+    {
+      "path": "references/prompt-weaving.md",
+      "size": 417,
+      "sha256": "2dd9d4afc8d54bbe63a2f806e9f8c446e8979507d61372a31fb75a5305f599de"
+    },
+    {
+      "path": "references/state-selection.md",
+      "size": 362,
+      "sha256": "a0726255a61738c07c49294917fd9565d494aa0583603e2eb5b718a8cbc22663"
+    },
+    {
+      "path": "references/transition-bridge.md",
+      "size": 360,
+      "sha256": "f232ab52c091d8ceb258b2e33d2c8dbb714e5ffd6290ad1d9801a550e09a2a5b"
+    },
+    {
+      "path": "scripts/validate_package.py",
+      "size": 1648,
+      "sha256": "a22c8a848a35e5ec3f0046a2bf183a19aa00b1cbf24e26db54f938d9024bbf38"
+    },
+    {
+      "path": "templates/compare-repair.md",
+      "size": 222,
+      "sha256": "fb2d4a0d99f664d633c98e860b29553e1e6a2d1df274d0afc57b64893f752f04"
+    },
+    {
+      "path": "templates/full-reverse.md",
+      "size": 548,
+      "sha256": "6b08ca9761e0628c9e95c78c895ed77df5fce0d0bb390504c7f08b4b426d04f3"
+    },
+    {
+      "path": "templates/multi-shot.md",
+      "size": 349,
+      "sha256": "bea50cfd020382baafe89b4a2202d3e44b2a0fb27939e1f50acde3a1b1ccbbdf"
+    },
+    {
+      "path": "templates/quick-reverse.md",
+      "size": 154,
+      "sha256": "cec30c0298211537f415cf1cd3b9b7107638284132ef3f40b7287a1ef51aad6c"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "required_slots": [
+    "desire",
+    "resistance",
+    "scene_goal",
+    "information_gap",
+    "relationship_change",
+    "exit_push"
+  ],
+  "preferred_tags": [
+    "opening",
+    "scene",
+    "conflict",
+    "dialogue",
+    "reveal",
+    "ending"
+  ],
+  "required_jars": [
+    "SENSE_JAR",
+    "TASTE_JAR",
+    "CRAFT_JAR"
+  ],
+  "optional_jars": [
+    "VOICE_JAR"
+  ],
+  "max_voice": 2,
+  "max_pawprints": 7,
+  "build_order": [
+    "明确场景目的和关系变化",
+    "选择1条感知爪印确定切口",
+    "选择1条品味爪印控制取舍",
+    "选择2-3条手艺爪印完成结构",
+    "最后最多加载2条声音爪印"
+  ],
+  "quality_checks": [
+    "角色目标可见",
+    "信息差推动场景",
+    "至少一次关系变化",
+    "结尾产生下一步推动",
+    "角色口气未被统一"
+  ]
+}

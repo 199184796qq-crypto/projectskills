@@ -1,0 +1,4 @@
+interface:
+  display_name: "视频微表情增强"
+  short_description: "可选微表情、表演链、情绪递进与镜头参与模式，让人物更真实"
+  default_prompt: "使用 $video-microexpression-enhancer 的真实感三招优化这段视频提示词。"

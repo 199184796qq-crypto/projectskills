@@ -1,0 +1,4 @@
+interface:
+  display_name: "场景锚定与多视角推演"
+  short_description: "通过参考图锁定场景结构并生成连续一致的多角度环境镜头提示词"
+  default_prompt: "使用 $scene-anchor-multiview，根据这张场景图生成反向平视回望提示词。"

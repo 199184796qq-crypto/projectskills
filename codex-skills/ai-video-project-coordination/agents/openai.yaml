@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI 视频项目统筹"
+  short_description: "搭建异地 AI 视频团队的协作与交付体系"
+  default_prompt: "Use $ai-video-project-coordination to initialize a new remote AI-video project using Feishu, a shared Baidu Netdisk, and Git."

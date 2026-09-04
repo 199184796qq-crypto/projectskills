@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Feedback Card",
+  "type": "object",
+  "required": [
+    "id",
+    "task",
+    "output_excerpt",
+    "problem",
+    "reason",
+    "affected_pawprints",
+    "decision"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "task": {
+      "type": "string"
+    },
+    "output_excerpt": {
+      "type": "string"
+    },
+    "problem": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "affected_pawprints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "decision": {
+      "enum": [
+        "keep",
+        "revise",
+        "retire",
+        "task_only",
+        "needs_more_evidence"
+      ]
+    },
+    "replacement": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

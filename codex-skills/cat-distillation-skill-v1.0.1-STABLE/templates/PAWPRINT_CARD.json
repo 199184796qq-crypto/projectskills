@@ -1,0 +1,28 @@
+{
+  "id": "PAW-001",
+  "jar": "CRAFT_JAR",
+  "trigger": "",
+  "attention": "",
+  "preference": "",
+  "move": "",
+  "visible_effect": "",
+  "boundaries": [
+    ""
+  ],
+  "evidence_refs": [
+    "SRC-001#L1-L10"
+  ],
+  "support_level": "weak",
+  "counterexamples": [],
+  "task_tags": [
+    "dialogue"
+  ],
+  "source_tags": [
+    "novel"
+  ],
+  "status": "candidate",
+  "replaces": null,
+  "notes": "",
+  "trial_refs": [],
+  "contrast_refs": []
+}

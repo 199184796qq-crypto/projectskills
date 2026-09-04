@@ -1,0 +1,4 @@
+interface:
+  display_name: "人性审核"
+  short_description: "从十种底层心理逻辑出发，审核文案与视听配合，给出可执行的多轮修改建议"
+  default_prompt: "使用“人性审核”技能（$humanity-copy-review）审核这篇文案，给出修改目标、原因和可直接执行的建议。"

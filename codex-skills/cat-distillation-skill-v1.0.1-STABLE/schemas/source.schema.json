@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source Record",
+  "type": "object",
+  "required": [
+    "id",
+    "path",
+    "sha256",
+    "media_type",
+    "directness",
+    "authorization",
+    "tags"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "media_type": {
+      "enum": [
+        "txt",
+        "md",
+        "json",
+        "csv",
+        "srt",
+        "vtt",
+        "other"
+      ]
+    },
+    "directness": {
+      "enum": [
+        "direct",
+        "edited",
+        "reported",
+        "unknown"
+      ]
+    },
+    "authorization": {
+      "enum": [
+        "cleared",
+        "restricted",
+        "unknown"
+      ]
+    },
+    "date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

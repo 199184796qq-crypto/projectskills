@@ -1,0 +1,4 @@
+interface:
+  display_name: "H3 多模态优化提示词"
+  short_description: "分析图片、视频和音频，生成 MiniMax H3 全参考模式六段英文视频提示词"
+  default_prompt: "请使用 H3 多模态优化提示词技能，分析我提供的创意和全部附件，生成可直接粘贴到 MiniMax H3 Full-Reference 模式的六段英文视频提示词。"

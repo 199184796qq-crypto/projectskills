@@ -1,0 +1,20 @@
+{
+  "mode": "MAKE",
+  "recipe": "novel",
+  "status": "ready",
+  "score": 8,
+  "scores": {
+    "evidence": 1,
+    "coverage": 2,
+    "trials": 1,
+    "safety": 2,
+    "balance": 2
+  },
+  "selected_pawprints": [
+    "PAW-001",
+    "PAW-003",
+    "PAW-002"
+  ],
+  "missing_jars": [],
+  "note": "score is a practical readiness gate, not a claim of full identity replication"
+}

@@ -1,0 +1,1 @@
+{"id": "FB-001", "task": "screenplay micro test", "output_excerpt": "角色连续三次低头数硬币", "problem": "动作重复过量", "reason": "把一次有效爪印漫画化", "affected_pawprints": ["PAW-002"], "decision": "revise", "replacement": null, "notes": "add repetition boundary"}

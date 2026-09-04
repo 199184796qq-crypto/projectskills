@@ -1,0 +1,6 @@
+interface:
+  display_name: "短剧人物环境一致性"
+  short_description: "锁定短剧人物站位、环境锚点与跨镜头空间连续性，避免错位"
+  default_prompt: "使用 $short-drama-character-environment-continuity，为这场短剧建立人物站位和环境一致性约束。"
+policy:
+  allow_implicit_invocation: true

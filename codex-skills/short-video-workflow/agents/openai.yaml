@@ -1,0 +1,4 @@
+interface:
+  display_name: "短视频工作流"
+  short_description: "按需加载当前阶段，逐步完成AI短视频全流程"
+  default_prompt: "使用 $short-video-workflow 开始视频流程，并按当前阶段逐步推进。"

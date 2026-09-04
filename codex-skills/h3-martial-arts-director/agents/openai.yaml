@@ -1,0 +1,4 @@
+interface:
+  display_name: "H3武术动作导演"
+  short_description: "为 MiniMax H3 编排可读、连贯的武打与一打多动作视频"
+  default_prompt: "使用 $h3-martial-arts-director 为我设计一段 10 秒的 H3 武打视频提示词。"

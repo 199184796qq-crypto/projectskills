@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Trial Record",
+  "type": "object",
+  "required": [
+    "id",
+    "task",
+    "recipe",
+    "pawprints",
+    "scores",
+    "total",
+    "result",
+    "safety_clear"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "task": {
+      "type": "string"
+    },
+    "recipe": {
+      "enum": [
+        "novel",
+        "screenplay",
+        "article",
+        "marketing"
+      ]
+    },
+    "pawprints": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "scores": {
+      "type": "object",
+      "required": [
+        "completion",
+        "specificity",
+        "pawprint_fit",
+        "naturalness",
+        "safety"
+      ],
+      "properties": {
+        "completion": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 2
+        },
+        "specificity": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 2
+        },
+        "pawprint_fit": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 2
+        },
+        "naturalness": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 2
+        },
+        "safety": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 2
+        }
+      },
+      "additionalProperties": false
+    },
+    "total": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10
+    },
+    "result": {
+      "enum": [
+        "pass",
+        "fail"
+      ]
+    },
+    "safety_clear": {
+      "type": "boolean"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
