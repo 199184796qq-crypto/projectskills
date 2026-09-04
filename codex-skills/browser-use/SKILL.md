@@ -171,3 +171,8 @@ If you get stuck on a browser mechanic, check https://github.com/browser-use/bro
 Only applies when `BH_DOMAIN_SKILLS=1`. Otherwise ignore domain skills.
 
 When enabled, search `$BH_AGENT_WORKSPACE/domain-skills/<host>/` before inventing an approach. `goto_url(...)` returns up to 10 skill filenames for the navigated host.
+
+## 中文名称与说明
+
+- 中文名称：浏览器自动化
+- 用途说明：通过 CDP 直接控制浏览器完成网页交互。
