@@ -3,7 +3,26 @@ param(
 )
 
 $chineseOverrides = @{
+    'arkcli-api-explorer' = '调用已注册的 ARK 原始 Action，补足常规命令无法覆盖的能力。'
+    'arkcli-auth' = '管理 ARK 交互式登录、SSO 认证、状态查看与退出。'
+    'arkcli-chat' = '通过 ARK Responses API 进行文本和多模态对话。'
+    'arkcli-code-example' = '为指定 ARK 基础模型生成多语言调用示例。'
+    'arkcli-config' = '管理 ARK 本地配置并排查历史配置问题。'
+    'arkcli-connect' = '将 ARK 内置 skills 连接到智能体工作流。'
+    'arkcli-custommodel' = '管理 ARK 自定义模型的导入、查询和筛选。'
+    'arkcli-infer-endpoint' = '创建、查询、启动和管理 ARK 推理接入点。'
+    'arkcli-models' = '列出、搜索和获取 ARK 公共基础模型。'
+    'arkcli-plans' = '管理 ARK 个人版和团队版套餐。'
+    'arkcli-profile' = '创建、切换、查看和管理 ARK 配置切面。'
+    'arkcli-resources' = '实时查询 ARK 控制面资源状态。'
+    'arkcli-understand' = '执行有明确产出形态的多模态理解任务。'
+    'arkcli-usage' = '查询 ARK Token、请求数和用量统计。'
     'find-skills' = '发现、筛选并安装适合任务的智能体技能。'
+    'arkcli-doctor' = '诊断 ARK 环境、认证、资源与常见故障。'
+    'arkcli-helper' = '将 ARK 内置技能连接到智能体工作流。'
+    'arkcli-onboard' = '为模型接入创建可执行的配置向导。'
+    'arkcli-shared' = '提供 ARK 共享执行协议、认证闸门和命令路由。'
+    'arkcli-deploy' = '创建与管理 ARK 模型推理接入点。'
     'imagegen' = '生成或编辑栅格图像。'
     'openai-docs' = '查询 OpenAI 产品、模型、价格与官方文档。'
     'plugin-creator' = '创建并搭建 Codex 插件目录与配置。'
@@ -57,6 +76,18 @@ $chineseOverrides = @{
     'sensory-occupation' = '用文字还原使用体验，让读者形成感官代入。'
     'usage-scenario' = '帮助读者看到产品的具体使用场景。'
     'white-amazon-image-set' = '创建或优化亚马逊白底商品图片组。'
+    'sales-video-copy-cases' = '销售视频文案案例的收集、分析、检索与改写。'
+    'seedance2-xianxia' = '生成 Seedance 2 仙侠风格视频提示词。'
+    'action-direction-enhancer' = '将武打与动作短视频需求转为清晰的招式编排、人物走位和镜头调度。'
+    'ai-video-project-initializer' = '初始化 AI 短视频多人多地项目的 Git、飞书、网盘与成员接入。'
+    'cangjie-skill' = '将书籍、长视频转写或项目材料提炼为可复用 skill。'
+    'character-asset-prompt' = '分析角色参考图并生成角色资产提示词。'
+    'face-de-ai-enhancer' = '降低 AI 人脸痕迹并增强人物真实感。'
+    'hell-grind-caliber-ai-film-director' = '为 AI 长片、动态漫和短剧提供电影级创作与导演流程。'
+    'huoshan-video-generation' = '使用火山引擎生成视频的操作流程。'
+    'minimax-h3-video-expert' = 'MiniMax H3 多模态视频生成专家。'
+    'storyboard-prompt-generator' = '生成可直接用于 AI 生图的分镜提示词。'
+    'video-microexpression-enhancer' = '增强视频角色的微表情、眼神和情绪表演。'
 }
 
 $roots = @('codex-skills', 'agents-skills')
@@ -69,7 +100,7 @@ $records = foreach ($rootName in $roots) {
         $frontmatter = $Matches[1]
         $name = if ($frontmatter -match '(?m)^name:\s*(.+)$') { $Matches[1].Trim().Trim('"') } else { throw "缺少 name：$($_.FullName)" }
         $description = if ($frontmatter -match '(?m)^description:\s*(.+)$') { $Matches[1].Trim().Trim('"') } else { '' }
-        $chineseDescription = if ($description -match '[\u4e00-\u9fff]') { $description } elseif ($chineseOverrides.ContainsKey($name)) { $chineseOverrides[$name] } else { '' }
+        $chineseDescription = if ($chineseOverrides.ContainsKey($name)) { $chineseOverrides[$name] } elseif ($description -match '^\s*[\u4e00-\u9fff]') { $description } else { '' }
         if (-not $chineseDescription) { throw "缺少中文说明映射：$name ($($_.FullName))" }
         [pscustomobject]@{
             Source = $rootName
