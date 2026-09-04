@@ -120,3 +120,8 @@ related_skills: [copywriting-four-step-system, customer-testimonial, factual-evi
 - **验证通过**: V1 ✓ / V2 ✓ / V3 ✓
 - **测试通过率**: 待测
 - **蒸馏时间**: 2026-05-02
+
+## 中文名称与说明
+
+- 中文名称：权威转嫁写作法
+- 用途说明：通过权威背书增强产品或品牌的信任感。
