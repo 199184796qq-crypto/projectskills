@@ -105,3 +105,8 @@ related_skills: [copywriting-four-step-system, news-editorial-title]
 - **验证通过**: V1 ✓ / V2 ✓ / V3 ✓
 - **测试通过率**: 待测
 - **蒸馏时间**: 2026-05-02
+
+## 中文名称与说明
+
+- 中文名称：好友对话标题法
+- 用途说明：生成亲切、像朋友聊天的文案标题。
