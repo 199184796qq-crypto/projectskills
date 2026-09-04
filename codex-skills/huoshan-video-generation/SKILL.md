@@ -180,3 +180,8 @@ If token usage is not returned, say cost cannot be calculated exactly from the r
 - Do not reveal full API keys, signed URLs beyond what is necessary, or secrets.
 - Do not run destructive configuration commands unless the user explicitly asks.
 - If the Ark CLI reports SSO is required for listing resources/models, do not start SSO automatically unless the user asks; continue with known model candidates and explain the limitation.
+
+## 中文名称与说明
+
+- 中文名称：火山视频生成
+- 用途说明：使用火山引擎生成视频的操作流程。
