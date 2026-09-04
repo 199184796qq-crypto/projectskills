@@ -227,3 +227,8 @@ Use $skill-name at /path/to/skill-name to complete this realistic request.
 ```
 
 Keep the evaluation scoped to permitted resources and side effects. Use an isolated temporary workspace for generated artifacts so they do not enter the working tree or contaminate later evaluations. Ask for approval when the proposed evaluation would require additional authorization, affect a live production system, or impose substantial time or cost. Review the actual outcome and artifacts, then make only changes supported by the observed behavior.
+
+## 中文名称与说明
+
+- 中文名称：技能创建器
+- 用途说明：创建或更新结构合理、可复用的 Codex skill。
