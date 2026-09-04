@@ -147,3 +147,8 @@ custommodel get <id> --transform 'active_endpoints'  （确认无 endpoint 引�
 - [arkcli-models](../arkcli-models/SKILL.md) — 基础模型查询（与本 skill 是两套资源）
 - [arkcli-deploy](../arkcli-deploy/SKILL.md) — 拿到 ready 的自定义模型后部署成 endpoint
 - [arkcli-shared](../arkcli-shared/SKILL.md) — 认证、全局 flag、安全规则
+
+## 中文名称与说明
+
+- 中文名称：ARK 自定义模型管理
+- 用途说明：管理 ARK 自定义模型的导入、查询和筛选。
