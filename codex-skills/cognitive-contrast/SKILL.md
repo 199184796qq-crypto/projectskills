@@ -125,3 +125,8 @@ related_skills: [copywriting-four-step-system, fear-appeal, sensory-occupation]
 - **验证通过**: V1 (跨域验证) / V2 (预测力) / V3 (独特性) 均通过
 - **测试通过率**: 待测
 - **蒸馏时间**: 2026-05-02
+
+## 中文名称与说明
+
+- 中文名称：认知对比写作法
+- 用途说明：通过认知对比突出产品相对竞品的优势。
