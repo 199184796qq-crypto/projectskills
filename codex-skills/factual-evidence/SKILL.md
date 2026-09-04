@@ -125,3 +125,8 @@ related_skills: [copywriting-four-step-system, authority-transfer]
 - **验证通过**: V1 ✓ / V2 ✓ / V3 ✓
 - **测试通过率**: 待测
 - **蒸馏时间**: 2026-05-02
+
+## 中文名称与说明
+
+- 中文名称：事实证明写作法
+- 用途说明：用客观数据或实验增强产品卖点的可信度。
