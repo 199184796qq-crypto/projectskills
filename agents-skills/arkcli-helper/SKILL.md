@@ -94,3 +94,8 @@ metadata:
 - 生图 / 生视频 → 走 [arkcli-gen](../arkcli-gen/SKILL.md)
 
 详细 flag、输出样例、错误码、边界 case 见 [`references/arkcli-helper.md`](references/arkcli-helper.md)。
+
+## 中文名称与说明
+
+- 中文名称：arkcli helper —— 给本机 AI Agent 配置 Plan / 注入 MCP
+- 用途说明：将 ARK 内置技能连接到智能体工作流。
