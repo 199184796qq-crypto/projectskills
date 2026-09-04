@@ -196,3 +196,8 @@ frontmatter 字段名（status / title / source_skill / next_skill）和文件�
 你也可以直接说你想做什么——比如「我想找对标」「这个概念帮我拆一下」——`/dbs` 会路由到对应的 skill。
 
 不熟悉所有 skill 没关系，迷路了就回 `/dbs`。
+
+## 中文名称与说明
+
+- 中文名称：dbs-restore：接续诊断
+- 用途说明：恢复已保存的诊断状态并继续工作。
