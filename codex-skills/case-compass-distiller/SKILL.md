@@ -151,3 +151,8 @@ python tools/compass.py record PROJECT result.json
 python tools/compass.py validate PROJECT
 python tools/run_selfcheck.py
 ```
+
+## 中文名称与说明
+
+- 中文名称：案例罗盘蒸馏 Skill 1.1
+- 用途说明：将少量授权案例做成四层局部先例地图。新任务到来时，分别寻找结构、声音、对白和互动上的近例，通过差异迁移完成新作品，并用反向验收检查硬要求和原句重叠。
