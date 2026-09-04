@@ -100,3 +100,8 @@ metadata:
 - [`references/arkcli-config-init.md`](references/arkcli-config-init.md)
 - [`references/arkcli-config-profile.md`](references/arkcli-config-profile.md)
 - [`references/evals.md`](references/evals.md)
+
+## 中文名称与说明
+
+- 中文名称：ARK 本地配置管理
+- 用途说明：管理 ARK 本地配置并排查历史配置问题。
