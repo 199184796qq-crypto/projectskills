@@ -295,3 +295,8 @@ ArkModels 给每个模型打 `lifecycle_status`，三种值，Search 处理方�
 - [`references/arkcli-models-search.md`](references/arkcli-models-search.md)
 - [`references/arkcli-models-scenario-table.md`](references/arkcli-models-scenario-table.md) -- 场景化推荐表（意图排序最高权重）+ JOIN 验证协议
 - [`references/arkcli-models-activate.md`](references/arkcli-models-activate.md)
+
+## 中文名称与说明
+
+- 中文名称：ARK 模型查询
+- 用途说明：列出、搜索和获取 ARK 公共基础模型。
