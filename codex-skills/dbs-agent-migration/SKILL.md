@@ -368,3 +368,8 @@ bridge_mode: passthrough
 你也可以直接说你想做什么——比如「我想找对标」「这个概念帮我拆一下」——`/dbs` 会路由到对应的 skill。
 
 不熟悉所有 skill 没关系，迷路了就回 `/dbs`。
+
+## 中文名称与说明
+
+- 中文名称：dbs-agent-migration：Agent 工作台迁移
+- 用途说明：将项目迁移整理为 Codex 或其他智能体工作台。
