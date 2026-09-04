@@ -248,3 +248,7 @@ doctor 对 RPM/TPM 配额压力的阈值是写死的（用户后续可配置）�
 - [arkcli-infer-endpoint](../arkcli-infer-endpoint/SKILL.md) — endpoint CRUD（doctor 不重复实现）
 - [arkcli-models](../arkcli-models/SKILL.md) — 公共基础模型查询
 
+## 中文名称与说明
+
+- 中文名称：arkcli Doctor（诊断总入口）
+- 用途说明：诊断 ARK 环境、认证、资源与常见故障。
