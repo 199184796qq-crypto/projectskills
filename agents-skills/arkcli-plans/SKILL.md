@@ -132,3 +132,8 @@ metadata:
 - [arkcli-billing](../arkcli-billing/SKILL.md) -- 套餐**结算金额**（火山计费中心拆账，T+1）
 - [arkcli-deploy](../arkcli-deploy/SKILL.md) -- 套餐买好后用 `+deploy` 部署 endpoint
 - [arkcli-helper](../arkcli-helper/SKILL.md) -- 给 AI Agent **注入 / 移除** Agent Plan 内置 MCP（`plans harness-status` 只读查看，注入改动走这里）
+
+## 中文名称与说明
+
+- 中文名称：ARK 套餐管理
+- 用途说明：管理 ARK 个人版和团队版套餐。
