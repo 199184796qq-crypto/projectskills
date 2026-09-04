@@ -106,3 +106,8 @@ related_skills: [copywriting-four-step-system, cost-accounting, justified-consum
 - **验证通过**: V1 ✓ / V2 ✓ / V3 ✓
 - **测试通过率**: 待测
 - **蒸馏时间**: 2026-05-02
+
+## 中文名称与说明
+
+- 中文名称：价格锚点设置法
+- 用途说明：建立价格锚点，降低消费者对价格的抵触。
