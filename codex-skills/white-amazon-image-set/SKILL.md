@@ -146,3 +146,8 @@ Before delivery, confirm:
 - Icons share one line style and repeated cells align consistently.
 - White space is intentional; no unnecessary cards, labels, glows, or decorative clutter were added.
 - Human anatomy, hands, faces, and equipment interactions are plausible in lifestyle imagery.
+
+## 中文名称与说明
+
+- 中文名称：亚马逊白底图组
+- 用途说明：创建或优化亚马逊白底商品图片组。
