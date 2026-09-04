@@ -37,3 +37,8 @@ description: >-
 | `libtv model`（含 `search` / 默认完整 schema）                                        | [commands/model.md](./commands/model.md)                         |
 | 画布节点类型（`-t` 枚举、对应 `-s` / `-u` 字段）                                      | [node-types/README.md](./node-types/README.md)                   |
 | 模型 schema 字段（`properties` / `config` / `rules` / `modeType`）                    | [model-schema/schema.md](./model-schema/schema.md)               |
+
+## 中文名称与说明
+
+- 中文名称：LibTV 命令行工具
+- 用途说明：使用 LibTV 官方命令行工具操作和运行 LibTV。
