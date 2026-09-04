@@ -166,3 +166,8 @@ books/<book-slug>/
 - **不凭记忆拆书** — 没文本就停下来问
 - **保留审计轨迹** — candidates/ 和 rejected/ 都要留
 - **随时可续跑** — 每完成一个阶段就更新 PIPELINE_STATE.md,中断后从状态文件恢复
+
+## 中文名称与说明
+
+- 中文名称：cangjie-skill — 把一本书蒸馏成一组可执行 skills 的元 skill
+- 用途说明：将书籍、长视频转写或项目材料提炼为可复用 skill。
