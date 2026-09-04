@@ -94,3 +94,8 @@ description: Enhance video requirements, scripts, shot lists, and model prompts 
 增强：
 
 `女子的目光骤然钉住对方，下颌收紧，胸口短促起伏一次；她身体微微前压，压低声音，一字一顿地说：“我讨厌你。”话音落下后仍绷着肩颈，没有立刻移开视线。`
+
+## 中文名称与说明
+
+- 中文名称：视频微表情增强
+- 用途说明：增强视频角色的微表情、眼神和情绪表演。
