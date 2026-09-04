@@ -144,3 +144,8 @@ metadata:
 - [arkcli-deploy](../arkcli-deploy/SKILL.md) -- 先创建 Endpoint,再按 endpoint 看 usage
 - [arkcli-pricing](../arkcli-pricing/SKILL.md) -- catalog 询价(`pricing plans`),跟 `usage plan` quota 快照互补
 - [arkcli-shared](../arkcli-shared/SKILL.md) -- 认证和全局参数
+
+## 中文名称与说明
+
+- 中文名称：ARK 用量查询
+- 用途说明：查询 ARK Token、请求数和用量统计。
