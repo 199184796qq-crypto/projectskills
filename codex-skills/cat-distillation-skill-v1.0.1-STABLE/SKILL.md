@@ -129,3 +129,8 @@ description: 从经授权的小说、剧本、文章、访谈、聊天与工作�
 - 准备度检查：`python tools/catdistill.py readiness --project <项目目录> --mode MAKE --recipe novel`
 - 生成三次试爪：`python tools/catdistill.py make-trials --project <项目目录> --recipe novel`
 - 严格审计：`python tools/catdistill.py audit --project <项目目录>`
+
+## 中文名称与说明
+
+- 中文名称：猫咪蒸馏 Skill
+- 用途说明：从经授权的小说、剧本、文章、访谈、聊天与工作材料中，提炼可复用的创作动作、表达习惯与协作方式，编译成可运行的创作 Skill。支持小说、剧本、专栏、营销文案、改稿与创意协作。不得宣称复制意识或复活本人。
