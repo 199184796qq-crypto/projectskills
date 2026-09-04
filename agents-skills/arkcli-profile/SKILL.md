@@ -125,3 +125,8 @@ Agent 行为约定：
 - [`references/arkcli-profile-create.md`](references/arkcli-profile-create.md)
 - [`references/arkcli-profile-keys.md`](references/arkcli-profile-keys.md)
 - [`references/arkcli-profile-set-default.md`](references/arkcli-profile-set-default.md)
+
+## 中文名称与说明
+
+- 中文名称：ARK 配置切面管理
+- 用途说明：创建、切换、查看和管理 ARK 配置切面。
