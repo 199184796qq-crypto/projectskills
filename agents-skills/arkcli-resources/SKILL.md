@@ -90,3 +90,8 @@ metadata:
 - [`../arkcli-profile/SKILL.md`](../arkcli-profile/SKILL.md) — 看完 resources 后要换 default 时进
 - [`../arkcli-models/SKILL.md`](../arkcli-models/SKILL.md) — 找模型 / 对比能力时进
 - [`../arkcli-deploy/SKILL.md`](../arkcli-deploy/SKILL.md) — 没看到想要的 endpoint 时进创建链路
+
+## 中文名称与说明
+
+- 中文名称：ARK 资源查询
+- 用途说明：实时查询 ARK 控制面资源状态。
