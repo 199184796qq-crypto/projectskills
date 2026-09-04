@@ -131,3 +131,8 @@ I can still help you with this task directly! Would you like me to proceed?
 If this is something you do often, you could create your own skill:
 npx skills init my-xyz-skill
 ```
+
+## 中文名称与说明
+
+- 中文名称：技能发现与安装
+- 用途说明：发现、筛选并安装适合任务的智能体技能。
