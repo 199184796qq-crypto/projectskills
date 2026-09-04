@@ -183,3 +183,8 @@ Keep the library entirely text-based. When adding a template:
 5. Update the family count in that index.
 
 Do not add scripts, generated catalogs, embeddings, vector stores, databases, or external service configuration.
+
+## 中文名称与说明
+
+- 中文名称：音乐文案改写器
+- 用途说明：将简短音乐描述改写为更适合发布的音乐文案。
