@@ -128,3 +128,8 @@ related_skills: [sensory-occupation, fear-appeal, cognitive-contrast, usage-scen
 - **验证通过**: V1 (跨域验证) / V2 (预测力) / V3 (独特性) 均通过
 - **测试通过率**: 待测
 - **蒸馏时间**: 2026-05-02
+
+## 中文名称与说明
+
+- 中文名称：文案卖货四步骤系统
+- 用途说明：用四步法从零创作或诊断销售型文案。
