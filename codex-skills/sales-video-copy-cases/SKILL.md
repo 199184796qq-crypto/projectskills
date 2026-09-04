@@ -139,3 +139,8 @@ For Qianchuan or ad material, use:
 ## Compliance
 
 Avoid absolute claims such as 全网最低, 治疗, 根治, 永久有效, 100%有效, 必瘦, 必赚. Replace with experience-based wording like 我吃着觉得, 适合, 可以试试, 口感更像, 家里囤着方便. Final answers must include the `合规检查` report from `references/compliance-check.md`.
+
+## 中文名称与说明
+
+- 中文名称：销售视频文案案例库
+- 用途说明：销售视频文案案例的收集、分析、检索与改写。
