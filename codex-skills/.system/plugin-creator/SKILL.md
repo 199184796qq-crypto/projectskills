@@ -247,3 +247,8 @@ Before handing back a generated plugin, run:
 ```bash
 python3 scripts/validate_plugin.py <plugin-path>
 ```
+
+## 中文名称与说明
+
+- 中文名称：插件创建器
+- 用途说明：创建并搭建 Codex 插件目录与配置。
