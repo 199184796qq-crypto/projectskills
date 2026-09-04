@@ -45,3 +45,8 @@ description: MiniMax H3 多模态生视频专家。用户提到 H3、MiniMax H3�
 
 - 模型规格、输入上限、文件格式和模式差异：`references/model-spec.md`
 - 提示词模板、分镜写法和负面约束：`references/prompt-guidelines.md`
+
+## 中文名称与说明
+
+- 中文名称：MiniMax H3 视频专家
+- 用途说明：MiniMax H3 多模态视频生成专家。
