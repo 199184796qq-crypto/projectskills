@@ -73,3 +73,8 @@ Step 5  回执
 - [arkcli-infer-endpoint](../arkcli-infer-endpoint/SKILL.md) — Step 2 查/复用 Endpoint
 - [arkcli-deploy](../arkcli-deploy/SKILL.md) — Step 3 创建 Endpoint
 - [arkcli-code-example](../arkcli-code-example/SKILL.md) — Step 4 可选示例代码
+
+## 中文名称与说明
+
+- 中文名称：arkcli 接入向导（workflow）
+- 用途说明：为模型接入创建可执行的配置向导。
