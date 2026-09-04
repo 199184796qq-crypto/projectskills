@@ -313,3 +313,8 @@ If installation is not possible in this environment, tell the user which depende
 - `references/image-api.md`: fallback-only API/CLI parameter reference.
 - `references/codex-network.md`: fallback-only network/sandbox troubleshooting for CLI mode.
 - `scripts/image_gen.py`: fallback-only CLI implementation. Use only when the user explicitly chooses or confirms CLI mode.
+
+## 中文名称与说明
+
+- 中文名称：图像生成与编辑
+- 用途说明：生成或编辑栅格图像。
