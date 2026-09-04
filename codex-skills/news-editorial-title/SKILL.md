@@ -104,3 +104,8 @@ related_skills: [copywriting-four-step-system, friend-chat-title]
 - **验证通过**: V1 ✓ / V2 ✓ / V3 ✓
 - **测试通过率**: 待测
 - **蒸馏时间**: 2026-05-02
+
+## 中文名称与说明
+
+- 中文名称：新闻社论标题法
+- 用途说明：生成具有新闻感与吸引力的文案标题。
