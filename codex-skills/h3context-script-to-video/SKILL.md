@@ -57,3 +57,8 @@ Use segment-relative timestamps: the first shot has no timestamp; every later sh
 - Verify all later segments use the two-second airlock before any major change.
 - Verify character anchors, speaker behavior, dialogue tags, visible text, and BGM evolution remain continuous.
 - Verify every segment places the two language-matched standalone lines directly after its final shot and before `overall_soundscape`: the complete no-readable-text constraint first, then the no-subtitles rule.
+
+## 中文名称与说明
+
+- 中文名称：H3 剧本转视频
+- 用途说明：把中英文剧本、角色和场景转为 H3 视频提示词。
