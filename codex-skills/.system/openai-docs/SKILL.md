@@ -36,3 +36,8 @@ Read at most one primary reference. Do not open every route, bundled model guide
 - Use `references/latest-model.md` only as a disclosed fallback after current official model guidance does not answer the question. Read `references/upgrading-to-gpt-5p6-sol.md` only for an actual, requested GPT-5.6-family migration; read `references/prompting-guide.md` only for requested prompting work.
 - Before building, running, editing, debugging, or testing an API-backed app or tool, use `openai-platform-api-key` first when available. Documentation, conceptual examples, model selection, and read-only guidance do not require an API key.
 - Say "OpenAI Docs" or "official OpenAI documentation" in user-facing answers. Keep exact official citations and examples concise.
+
+## 中文名称与说明
+
+- 中文名称：OpenAI 官方文档
+- 用途说明：查询 OpenAI 产品、模型、价格与官方文档。
