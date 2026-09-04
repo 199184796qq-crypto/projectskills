@@ -71,3 +71,8 @@ arkcli infer endpoint list --mine --page-all --page-size 100 --format json
 - [`references/arkcli-infer-endpoint-delete.md`](references/arkcli-infer-endpoint-delete.md)
 - [`references/arkcli-infer-endpoint-update.md`](references/arkcli-infer-endpoint-update.md)
 - [`../arkcli-code-example/SKILL.md`](../arkcli-code-example/SKILL.md)
+
+## 中文名称与说明
+
+- 中文名称：ARK 推理接入点管理
+- 用途说明：创建、查询、启动和管理 ARK 推理接入点。
