@@ -106,3 +106,8 @@ related_skills: [copywriting-four-step-system, authority-transfer]
 - **验证通过**: V1 ✓ / V2 ✓ / V3 ✓
 - **测试通过率**: 待测
 - **蒸馏时间**: 2026-05-02
+
+## 中文名称与说明
+
+- 中文名称：顾客证言精选法
+- 用途说明：选择和编排客户评价，用于提升文案可信度。
