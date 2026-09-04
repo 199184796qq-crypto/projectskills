@@ -94,3 +94,8 @@ dim 间 fallback (endpoint→apikey) agent **可以自动重试**,因为同 mine
 | 命令 | 说明 |
 |------|------|
 | [`billing list`](references/arkcli-billing-list.md) | 拆分账单明细查询(结算金额 × Token 用量) |
+
+## 中文名称与说明
+
+- 中文名称：ARK 账单查询
+- 用途说明：查询火山引擎 ARK 拆分账单明细（结算金额、Token 用量计费），支持按账期月、月范围、Endpoint、API Key、产品编码等维度过滤。当用户问账单、花了多少钱、对账、账期、按 EP / API Key 拆账、按产品拆账、月度账单、出账明细时使用。注意 billing 跟 usage stats 不同：stats 出推理量（近实时），billing 出结算金额（T+1 出账，财务口径）。
