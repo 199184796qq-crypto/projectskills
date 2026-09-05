@@ -13,9 +13,17 @@ Run this intake before choosing an H3 mode or writing any prompt.
 2. If assets are already attached or listed in the current request, do not ask the generic upload question again. Inventory the supplied assets and map each one to the script using all available evidence together: the filesystem filename, displayed image/audio name, the user's explicit numbering or description, visible image content, and the narrative role required by the script.
 3. Treat the user's explicit mapping as authoritative. For example, if the user states that Picture 1 is a named character or Audio 2 is a named character's voice reference, preserve that relationship across every section and label.
 4. Never guess an ambiguous mapping. If two assets could represent the same role, a filename conflicts with the visible content or user description, or the intended subject cannot be identified confidently, ask the user which asset maps to which character, scene, prop, frame, video, or voice before writing the final prompt.
-5. Detect missing required inputs from the requested mode and story. Ask specifically for what is missing, such as a referenced character image, environment image, first/last frame, source video, or named speaker's voice reference. Do not invent an asset, reference label, or source relationship to fill the gap.
+5. Detect missing required inputs from the requested mode and story. List each missing item in the upload-order block as a clearly marked user-upload asset, then write the formal H3 prompt as though it has been uploaded and bound. Do not invent visual identity, source content, or a false file path; only define the required role and binding.
 6. Audio assets are used only in the mode the user assigns: either a character-exclusive voice asset or a segment-wide multi-speaker dialogue asset. A voice-reference asset supplies voice identity only unless the user explicitly authorizes reuse of its words, performance, timing, ambience, or music.
-7. Before final output, verify that every referenced asset has one stable label and one unambiguous role, and that every label used in the prompt resolves to an asset actually supplied by the user.
+7. Before final output, verify that every referenced asset has one stable label and one unambiguous role. A supplied asset resolves to its actual file; a missing asset resolves to exactly one clearly marked upload-order entry and remains fully bound in the formal prompt.
+
+## `subject_definitions:` Picture-to-Subject Binding (Highest-Priority Rule)
+
+- Whether an image has already been uploaded, is marked as pending in the upload-order block, or is still awaiting a team member, the formal H3 prompt must treat it as uploaded and usable. Never omit, weaken, or replace its `subject_definitions:` entry because the image is absent.
+- Every `<Picture N>` used in a segment must have one same-numbered `<Subject N>` in `subject_definitions:` with an explicit source relationship: `<Subject N> <subject name> comes from <Picture N>, …`. A character subject locks identity and appearance; an environment subject locks the setting and spatial anchors; a prop subject locks the object and state.
+- Indices must exactly follow the upload-order block: `Picture 1` maps to `<Picture 1>` and `<Subject 1>`, `Picture 2` maps to `<Picture 2>` and `<Subject 2>`, and so on. Do not renumber in the formal prompt, leave a picture without a subject, or leave a subject without its source picture.
+- The formal prompt describes only the already-established binding. It must not say “pending upload”, “if provided”, “if there is an image”, “temporary”, or other uncertainty. Missing status is allowed only in the upload-order block.
+- Delivery gate: every image listed in the upload-order block must be traceable to a clear `<Picture N> → <Subject N>` relation in `subject_definitions:`. Any missing pair fails review and blocks delivery.
 
 ## Workflow
 
