@@ -1,4 +1,4 @@
 interface:
-  display_name: "����ê������ӽ�����"
-  short_description: "ͨ���ο�ͼ���������ṹ����������һ�µĶ�ǶȻ�����ͷ��ʾ��"
-  default_prompt: "ʹ�� $scene-anchor-multiview���������ų���ͼ���ɷ���ƽ�ӻ�����ʾ�ʡ�"
+  display_name: "同场景多角度提示词"
+  short_description: "基于场景母版锁定空间关系，生成反打、高机位等同场景多角度中文提示词。"
+  default_prompt: "使用 $同场景多角度提示词，根据我提供的场景母版图生成同一空间的多角度提示词。"
